@@ -1,0 +1,67 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Laptop -->
+  <rect x="100" y="100" width="400" height="250" rx="10" fill="#333333"/>
+  <rect x="120" y="120" width="360" height="210" rx="5" fill="#FFFFFF"/>
+  
+  <!-- Laptop base -->
+  <path d="M100 350L80 400H520L500 350H100Z" fill="#333333"/>
+  <rect x="250" y="365" width="100" height="8" rx="4" fill="#444444"/>
+  
+  <!-- Website content on laptop -->
+  <rect x="120" y="120" width="360" height="40" rx="5" fill="#5A23C8"/>
+  <circle cx="140" cy="140" r="10" fill="#FFFFFF"/>
+  <rect x="160" y="135" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="210" y="135" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="260" y="135" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="310" y="135" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="360" y="135" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Hero section content -->
+  <rect x="140" y="180" width="150" height="20" rx="2" fill="#333333"/>
+  <rect x="140" y="205" width="200" height="10" rx="2" fill="#666666"/>
+  <rect x="140" y="220" width="180" height="10" rx="2" fill="#666666"/>
+  <rect x="140" y="240" width="70" height="25" rx="12.5" fill="#FFDD00"/>
+  <rect x="220" y="240" width="90" height="25" rx="12.5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Tablet -->
+  <rect x="430" y="250" width="150" height="200" rx="10" fill="#333333"/>
+  <rect x="440" y="270" width="130" height="160" rx="5" fill="#FFFFFF"/>
+  <circle cx="505" cy="440" r="8" fill="#444444"/>
+  
+  <!-- Website on tablet -->
+  <rect x="440" y="270" width="130" height="30" rx="5" fill="#5A23C8"/>
+  <rect x="450" y="310" width="70" height="10" rx="2" fill="#333333"/>
+  <rect x="450" y="325" width="100" height="5" rx="2" fill="#666666"/>
+  <rect x="450" y="335" width="90" height="5" rx="2" fill="#666666"/>
+  <rect x="450" y="350" width="40" height="15" rx="7.5" fill="#FFDD00"/>
+  
+  <!-- Phone -->
+  <rect x="20" y="270" width="80" height="150" rx="10" fill="#333333"/>
+  <rect x="25" y="280" width="70" height="120" rx="5" fill="#FFFFFF"/>
+  <circle cx="60" cy="410" r="8" fill="#444444"/>
+  
+  <!-- Website on phone -->
+  <rect x="25" y="280" width="70" height="25" rx="5" fill="#5A23C8"/>
+  <rect x="30" y="315" width="40" height="8" rx="2" fill="#333333"/>
+  <rect x="30" y="328" width="60" height="4" rx="2" fill="#666666"/>
+  <rect x="30" y="336" width="55" height="4" rx="2" fill="#666666"/>
+  <rect x="30" y="345" width="25" height="12" rx="6" fill="#FFDD00"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="320" cy="280" r="30" fill="#A259FF" opacity="0.2"/>
+  <circle cx="340" cy="250" r="20" fill="#A259FF" opacity="0.3"/>
+  <circle cx="300" cy="310" r="15" fill="#A259FF" opacity="0.4"/>
+  
+  <!-- Icon decorations -->
+  <circle cx="400" cy="200" r="15" fill="#FFFFFF"/>
+  <rect x="392" y="192" width="16" height="16" rx="2" stroke="#5A23C8" stroke-width="2"/>
+  
+  <circle cx="380" cy="300" r="15" fill="#FFFFFF"/>
+  <path d="M380 294V306M374 300H386" stroke="#5A23C8" stroke-width="2"/>
+  
+  <circle cx="450" cy="180" r="15" fill="#FFFFFF"/>
+  <path d="M450 174L450 186M444 180H456" stroke="#5A23C8" stroke-width="2" stroke-linecap="round"/>
+  
+  <circle cx="90" cy="220" r="15" fill="#FFFFFF"/>
+  <path d="M84 220H96M90 214V226" stroke="#5A23C8" stroke-width="2" stroke-linecap="round"/>
+</svg> 

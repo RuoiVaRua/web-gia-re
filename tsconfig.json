@@ -1,7 +1,75 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    /* Cấu hình cơ bản */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Hỗ trợ Vue và JSX */
+    "jsx": "preserve",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Đường dẫn alias */
+    "paths": {
+      "@/*": ["src/*"],
+      "~/*": ["./*"]
+    },
+
+    /* Cấu hình kiểu */
+    "types": [
+          "vite/client"
+        ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+
+    /* Tính năng nâng cao */
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* Hỗ trợ Decorators (nếu dùng) */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Tối ưu cho Vite */
+    "allowJs": true,
+    "checkJs": true,  
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "noEmit": true
+  },
+
+  /* Các file cần biên dịch */
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+
+  /* Loại trừ */
+  "exclude": [
+    "node_modules",
+    "dist",
+    "vite.config.ts",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/__tests__/*",
+    "**/__mocks__/*"
+  ],
 }

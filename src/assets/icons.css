@@ -1,0 +1,22 @@
+/* Icons for MauWebsite Hero */
+.icon-code::before {
+  content: "</>";
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.icon-search::before {
+  content: "🔍";
+  font-size: 18px;
+}
+
+.icon-mobile::before {
+  content: "📱";
+  font-size: 18px;
+}
+
+.icon-rocket::before {
+  content: "🚀";
+  font-size: 18px;
+} 

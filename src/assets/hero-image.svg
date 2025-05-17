@@ -1,0 +1,36 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Device frame -->
+  <rect x="100" y="50" width="400" height="300" rx="8" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Screen content -->
+  <rect x="120" y="70" width="360" height="240" rx="4" fill="#FFFFFF"/>
+  
+  <!-- Website header -->
+  <rect x="120" y="70" width="360" height="50" rx="4" fill="#6128FA"/>
+  <circle cx="140" cy="95" r="10" fill="#FFFFFF"/>
+  <rect x="160" y="90" width="60" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="230" y="90" width="60" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="300" y="90" width="60" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="370" y="90" width="60" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Website content -->
+  <rect x="140" y="140" width="150" height="15" rx="2" fill="#333333"/>
+  <rect x="140" y="165" width="250" height="10" rx="2" fill="#666666"/>
+  <rect x="140" y="185" width="200" height="10" rx="2" fill="#666666"/>
+  <rect x="140" y="215" width="80" height="30" rx="4" fill="#8128FA"/>
+  <rect x="230" y="215" width="80" height="30" rx="4" fill="none" stroke="#8128FA" stroke-width="2"/>
+  
+  <!-- Graphic elements -->
+  <circle cx="400" cy="180" r="40" fill="#9345FF" opacity="0.2"/>
+  <circle cx="420" cy="160" r="30" fill="#9345FF" opacity="0.3"/>
+  <circle cx="380" cy="200" r="20" fill="#9345FF" opacity="0.4"/>
+  
+  <!-- Device base -->
+  <rect x="220" y="350" width="160" height="10" rx="5" fill="#E0E0E0"/>
+  <path d="M250 350L270 320H330L350 350H250Z" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Animation elements - waves -->
+  <path d="M420 120C450 120 450 140 480 140" stroke="#9345FF" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M420 140C450 140 450 160 480 160" stroke="#9345FF" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M420 160C450 160 450 180 480 180" stroke="#9345FF" stroke-width="2" stroke-dasharray="4 4"/>
+</svg> 

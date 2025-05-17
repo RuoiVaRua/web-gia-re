@@ -1,30 +1,39 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import SimplePageHero from './components/SimplePageHero.vue';
+import MauWebsiteHero from './components/MauWebsiteHero.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="app">
+    <h1 class="section-title">Hero Section - SimplePage</h1>
+    <SimplePageHero />
+    
+    <h1 class="section-title">Hero Section - MauWebsite</h1>
+    <MauWebsiteHero />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+body {
+  background-color: #f5f5f5;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.app {
+  width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #333;
+  color: white;
+  margin: 0;
 }
 </style>
