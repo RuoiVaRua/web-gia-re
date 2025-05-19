@@ -55,9 +55,7 @@
 					class="website-preview"
 					style="
 						top: 120px;
-						left: 50%;
-						transform: translate(-50%, 0);
-						-webkit-transform: translate(-50%, 0);
+						left: 30%;
 						width: 480px;
 						max-width: 100%;
 					"
@@ -112,13 +110,20 @@ export default {
 			});
 		}, 300);
 
-			// Add mousemove effect to website previews
-			const previewImages = document.querySelectorAll(".website-preview img");
+		// Hiệu ứng xuất hiện lần lượt cho website-preview
+		const previews = document.querySelectorAll<HTMLElement>(".website-preview");
+		previews.forEach((el, idx) => {
+			setTimeout(() => {
+				el.classList.add("active");
+			}, 600 + idx * 70);
+		});
 
-			previewImages.forEach((img) => {
-				img.addEventListener("mousemove", this.handleImgMouseMove as EventListener);
-				img.addEventListener("mouseleave", this.handleImgMouseLeave as EventListener);
-			});	
+		// Add mousemove effect to website previews
+		const previewImages = document.querySelectorAll(".website-preview img");
+		previewImages.forEach((img) => {
+			img.addEventListener("mousemove", this.handleImgMouseMove as EventListener);
+			img.addEventListener("mouseleave", this.handleImgMouseLeave as EventListener);
+		});
 	},
 	methods: {
 		handleImgMouseMove: (e: MouseEvent) => {
@@ -316,6 +321,13 @@ $font-family_1: "Roboto", sans-serif;
 		transition: transform 0.3s ease-out; /* Thêm transition cho hiệu ứng mượt mà */
 		transform-origin: center center; /* Đặt gốc transform ở giữa ảnh */
 	}
+	opacity: 0.1;
+	transform: translateY(300px);
+	transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.website-preview.active {
+	opacity: 1;
+	transform: translateY(0);
 }
 .left-top {
 	top: 10%;

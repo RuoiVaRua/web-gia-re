@@ -26,83 +26,48 @@
 				</ul>
 				<a href="#" class="btn-primary animated">Bắt đầu miễn phí</a>
 			</div>
-			<div class="hero-image-wrapper">
-				<img
-					class="hero-banner"
-					src="https://simpleweb.sgp1.digitaloceanspaces.com/wp-content/uploads/2023/09/banner-simplepage.png"
-					alt="banner simplepage"
-				/>
-				<div class="circle-element animated bounce">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="122"
-						height="122"
-						viewBox="0 0 122 122"
-						fill="none"
-					>
-						<circle
-							cx="60.0176"
-							cy="60.7031"
-							r="60"
-							fill="#D9FFF1"
-						></circle>
-						<path
-							d="M59.8705 108.489C86.1922 108.489 107.53 87.1512 107.53 60.8295C107.53 34.5079 86.1922 13.1699 59.8705 13.1699C33.5489 13.1699 12.2109 34.5079 12.2109 60.8295C12.2109 87.1512 33.5489 108.489 59.8705 108.489Z"
-							stroke="white"
-							stroke-width="3"
-							stroke-miterlimit="10"
-						></path>
-						<path
-							d="M40.0465 17.426C26.6713 23.6092 16.3415 35.8921 13.2634 51.4573C8.15736 77.2776 24.9514 102.351 50.7718 107.457C76.5921 112.563 101.666 95.7693 106.772 69.949C111.878 44.1286 95.0838 19.055 69.2634 13.949C64.8786 13.0818 60.5173 12.849 56.2679 13.1799"
-							stroke="#004F32"
-							stroke-width="3"
-							stroke-miterlimit="10"
-							stroke-linecap="round"
-						></path>
-						<path
-							d="M49.6946 63.8215C48.1373 63.8215 46.8253 63.5228 45.7586 62.9255C44.6919 62.3068 43.8599 61.5068 43.2626 60.5255C42.6653 59.5442 42.3133 58.4882 42.2066 57.3575H46.0146C46.1853 58.3388 46.5906 59.0962 47.2306 59.6295C47.8919 60.1628 48.7239 60.4295 49.7266 60.4295C51.1559 60.4295 52.3079 59.7788 53.1826 58.4775C54.0573 57.1548 54.5266 55.1495 54.5906 52.4615C54.0786 53.3362 53.2999 54.0615 52.2546 54.6375C51.2306 55.2135 50.0999 55.5015 48.8626 55.5015C47.6253 55.5015 46.4626 55.2028 45.3746 54.6055C44.2866 54.0082 43.4013 53.1655 42.7186 52.0775C42.0359 50.9895 41.6946 49.7095 41.6946 48.2375C41.6946 46.8935 42.0253 45.6455 42.6866 44.4935C43.3479 43.3415 44.2653 42.4135 45.4386 41.7095C46.6119 41.0055 47.9879 40.6535 49.5666 40.6535C51.2519 40.6535 52.6706 40.9628 53.8226 41.5815C54.9746 42.2002 55.8919 43.0322 56.5746 44.0775C57.2786 45.1228 57.7799 46.2855 58.0786 47.5655C58.3986 48.8455 58.5586 50.1575 58.5586 51.5015C58.5586 53.9975 58.2066 56.1735 57.5026 58.0295C56.8199 59.8642 55.8066 61.2935 54.4626 62.3175C53.1399 63.3202 51.5506 63.8215 49.6946 63.8215ZM49.8226 52.0455C50.6119 52.0455 51.3266 51.8748 51.9666 51.5335C52.6066 51.1708 53.1079 50.7015 53.4706 50.1255C53.8333 49.5282 54.0146 48.8668 54.0146 48.1415C54.0146 46.9895 53.6093 46.0402 52.7986 45.2935C52.0093 44.5468 51.0066 44.1735 49.7906 44.1735C48.5959 44.1735 47.6039 44.5468 46.8146 45.2935C46.0253 46.0188 45.6306 46.9468 45.6306 48.0775C45.6306 49.2722 46.0253 50.2322 46.8146 50.9575C47.6039 51.6828 48.6066 52.0455 49.8226 52.0455ZM70.7439 63.8215C69.0585 63.8215 67.6399 63.5122 66.4879 62.8935C65.3359 62.2748 64.4079 61.4428 63.7039 60.3975C62.9999 59.3522 62.4879 58.1895 62.1679 56.9095C61.8692 55.6295 61.7199 54.3175 61.7199 52.9735C61.7199 50.4775 62.0719 48.3122 62.7759 46.4775C63.4799 44.6215 64.4932 43.1922 65.8159 42.1895C67.1385 41.1655 68.7385 40.6535 70.6159 40.6535C72.1519 40.6535 73.4532 40.9628 74.5199 41.5815C75.6079 42.1788 76.4505 42.9682 77.0479 43.9495C77.6452 44.9308 77.9972 45.9868 78.1039 47.1175H74.2959C74.1039 46.1362 73.6879 45.3788 73.0479 44.8455C72.4079 44.3122 71.5865 44.0455 70.5839 44.0455C69.1545 44.0455 68.0025 44.7068 67.1279 46.0295C66.2532 47.3308 65.7839 49.3255 65.7199 52.0135C66.2319 51.1388 66.9999 50.4135 68.0239 49.8375C69.0479 49.2615 70.1892 48.9735 71.4479 48.9735C72.6852 48.9735 73.8479 49.2722 74.9359 49.8695C76.0239 50.4668 76.8985 51.3095 77.5599 52.3975C78.2425 53.4855 78.5839 54.7655 78.5839 56.2375C78.5839 57.5815 78.2532 58.8295 77.5919 59.9815C76.9519 61.1335 76.0345 62.0615 74.8399 62.7655C73.6665 63.4695 72.3012 63.8215 70.7439 63.8215ZM70.5199 60.3015C71.7145 60.3015 72.6959 59.9388 73.4639 59.2135C74.2532 58.4668 74.6479 57.5282 74.6479 56.3975C74.6479 55.2028 74.2532 54.2428 73.4639 53.5175C72.6745 52.7922 71.6719 52.4295 70.4559 52.4295C69.6665 52.4295 68.9519 52.6108 68.3119 52.9735C67.6932 53.3148 67.2025 53.7842 66.8399 54.3815C66.4772 54.9575 66.2959 55.6082 66.2959 56.3335C66.2959 57.4855 66.6905 58.4348 67.4799 59.1815C68.2905 59.9282 69.3039 60.3015 70.5199 60.3015Z"
-							fill="#212121"
-						></path>
-					</svg>
+			<div class="hero-image-container">
+				<div class="">
+					<img
+						width="580"
+						height="326"
+						src="https://simpleweb.sgp1.digitaloceanspaces.com/wp-content/uploads/2023/09/banner-simplepage.png"
+						alt="banner simplepage"
+					/>
+				</div>
+				<div class="hero-image-wrapper" style="left: 50px; bottom: 110px;">
+					<img
+						class="hero-image-front"
+						width="252"
+						height="300"
+						src="https://simpleweb.sgp1.digitaloceanspaces.com/wp-content/uploads/2023/09/new-lead.jpeg"
+						alt=""
+					/>
+				</div>
+				<div class="hero-image-wrapper" style="right: 40px; bottom: 85px; text-align: right;">
+					<img
+						class="hero-image-front"
+						width="300"
+						height="169"
+						src="https://simpleweb.sgp1.digitaloceanspaces.com/wp-content/uploads/2023/09/TYLECHUYENDOI.png"
+						alt=""
+					/>
+				</div>
+				<div class="hero-image-wrapper hero-image-hover" style="right: 100px; top: 0px; width: 150px;">
+					<img src="../assets/custom-domain.svg" alt="" style="width: 100%;" />
+				</div>
+				<div class="hero-image-wrapper hero-image-beat" style="left: 72px; top: 0px; width: 60px;">
+					<img src="../assets/96-page-speed.svg" alt="" style="width: 100%;" />
 				</div>
 			</div>
 		</div>
 		<div class="ux-shape-divider">
-			<svg
-				viewBox="0 0 1000 300"
-				xmlns="http://www.w3.org/2000/svg"
-				preserveAspectRatio="none"
-			>
-				<path
-					class="ux-shape-fill"
-					opacity="0.05"
-					d="M1014 264V386H206L34 300C34 300 344.42 277.16 436 221C542 156 590 160 704 209C811 255 899.11 214.94 979 346L1014 264Z"
-				></path>
-				<path
-					class="ux-shape-fill"
-					opacity="0.1"
-					d="M-302 55C-302 55 -66.73 263.25 50 214C178 160 283 116 353 141C445.68 174.1 534.28 256.19 588 249C692.9 235 764.52 75.94 855 131C940.61 183.09 1000 254 1000 254V328L-306 338L-302 55Z"
-				></path>
-				<path
-					class="ux-shape-fill"
-					opacity="0.15"
-					d="M-286 255C-286 255 -72 152 52 126C176 100 255 155 436 227C581.57 284.91 614.7 277.79 708 227C787 184 1009 3.0001 1093 164C1146 265.63 1031 293 1031 293L924 377L-288 389L-286 255Z"
-				></path>
-				<path
-					class="ux-shape-fill"
-					opacity="0.3"
-					d="M-24 69C-24 69 275.68 370.66 389 314C397 310 622 316 673 356C690.47 369.7 845 224 890 182C944.8 130.85 1018 92 1078 143C1154.12 207.7 1196 242 1196 242L1184 374L-28 386L-24 69Z"
-				></path>
-				<path
-					class="ux-shape-fill"
-					d="M-12 201C-12 201 58 284 182 258C306 232 342.29 221.23 456 264C565 305 640.82 288.36 721 249C776 222 837.5 191.31 935 253C984 284 1030 279 1030 279L1024 430L-12 440V201Z"
-				></path>
-			</svg>
+			<img src="../assets/hero-line.svg" alt="" style="width: 100%; height: 100%;" />
 		</div>
 	</section>
 </template>
 
-<script>
+<script lang="ts">
 export default {
 	name: "SimplePageHero",
 	mounted() {
@@ -113,6 +78,33 @@ export default {
 				el.classList.add("active");
 			});
 		}, 300);
+
+		// Parallax effect for hero-image-front
+		const heroSection = document.querySelector(".simplepage-hero");
+		const heroImages = document.querySelectorAll<HTMLImageElement>(".hero-image-front");
+
+		if (heroSection && heroImages.length) {
+			heroSection.addEventListener("mousemove", (event) => {
+				const e = event as MouseEvent;
+				const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+				const x = e.clientX - rect.left;
+				const y = e.clientY - rect.top;
+				const centerX = rect.width / 2;
+				const centerY = rect.height / 2;
+				// Tính dịch chuyển cùng hướng chuột, tối đa 20px
+				const maxMove = 10;
+				const moveX = ((x - centerX) / centerX) * maxMove;
+				const moveY = ((y - centerY) / centerY) * maxMove;
+				heroImages.forEach((img) => {
+					img.style.transform = `matrix(1, 0, 0, 1, ${moveX}, ${moveY})`;
+				});
+			});
+			// heroSection.addEventListener("mouseleave", () => {
+			// 	heroImages.forEach((img) => {
+			// 		img.style.transform = "matrix(1, 0, 0, 1, 0, 0)";
+			// 	});
+			// });
+		}
 	},
 };
 </script>
@@ -171,9 +163,9 @@ $background-color_3: white;
 	overflow: hidden;
 	color: $color_1;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .background-overlay {
 	position: absolute;
@@ -251,10 +243,82 @@ $background-color_3: white;
 		box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
 	}
 }
-.hero-image-wrapper {
+.hero-image-container {
 	flex: 1;
 	position: relative;
 	padding: 20px;
+}
+.hero-image-wrapper {
+	position: absolute;
+	border-radius: 6px;
+}
+.hero-image-hover {
+	transition: transform 0.3s ease;
+	animation: drip_down 1s ease 0.5s;
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	@keyframes drip_down {
+		0% {
+			transform: translateY(0);
+		}
+		20% {
+			transform: translateY(-20px);
+		}
+		40% {
+			transform: translateY(10px);
+		}
+		60% {
+			transform: translateY(-5px);
+		}
+		80% {
+			transform: translateY(2px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+}
+.hero-image-beat {
+	animation: beat 1s ease 0.5s;
+	@keyframes beat {
+		0% {
+			transform: scale(1);
+		}
+		20% {
+			transform: scale(1.2);
+		}
+		40% {
+			transform: scale(0.9);
+		}
+		60% {
+			transform: scale(1.05);
+		}
+		80% {
+			transform: scale(0.97);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+}
+.hero-image-front {
+	width: 25%;
+	border-radius: 10px;
+	height: auto;
+	object-fit: contain;
+	opacity: 0;
+	animation: show 1s linear 1s forwards;
+
+	@keyframes show {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
 }
 .hero-banner {
 	max-width: 100%;
@@ -262,7 +326,7 @@ $background-color_3: white;
 	position: relative;
 	z-index: 1;
 	border-radius: 8px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+	// box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 .circle-element {
 	position: absolute;
@@ -324,11 +388,6 @@ $background-color_3: white;
 .ux-shape-divider {
 	width: 100%;
 	height: 150px;
-
-	svg {
-		height: 100%;
-		width: 100%;
-	}
 }
 @media (max-width: 992px) {
 	.container {
@@ -344,7 +403,7 @@ $background-color_3: white;
 			text-align: left;
 		}
 	}
-	.hero-image-wrapper {
+	.hero-image-container {
 		width: 100%;
 		max-width: 500px;
 	}
