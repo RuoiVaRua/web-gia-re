@@ -55,7 +55,8 @@
 					class="website-preview"
 					style="
 						top: 120px;
-						left: 30%;
+						left: 50%;
+						transform: translateX(-50%);
 						width: 480px;
 						max-width: 100%;
 					"
@@ -84,7 +85,7 @@
 				</div>
 				<div
 					class="website-preview"
-					style="top: 100%; margin-top: -80px; left: -40px"
+					style="top: 220px; left: -40px"
 				>
 					<img
 						src="https://mauwebsite.vn/wp-content/uploads/2018/11/6.png"
@@ -322,12 +323,12 @@ $font-family_1: "Roboto", sans-serif;
 		transform-origin: center center; /* Đặt gốc transform ở giữa ảnh */
 	}
 	opacity: 0.1;
-	transform: translateY(300px);
-	transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+	margin-top: 300px;
+	transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), margin-top 0.7s cubic-bezier(0.4,0,0.2,1);
 }
 .website-preview.active {
 	opacity: 1;
-	transform: translateY(0);
+	margin-top: 0;
 }
 .left-top {
 	top: 10%;
