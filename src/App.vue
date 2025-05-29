@@ -1,19 +1,11 @@
 <script setup lang="ts">
-import SimplePageHero from "./components/SimplePageHero.vue";
-import MauWebsiteHero from "./components/MauWebsiteHero.vue";
-import StackingCardsDemo from "./components/StackingCardsDemo.vue";
-import ElementorHostingSection from "./components/ElementorHostingSection.vue";
-import SimplePageGallery from "./components/SimplePageGallery.vue";
-import MobioNavigation from "./components/MobioNavigation.vue";
-import ContactSection from "./components/ContactSection.vue";
-import FooterSection from "./components/FooterSection.vue";
+import MonaTopMenu from "./components/MonaTopMenu.vue";
+import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
 <template>
 	<div class="app">
-		<h1 class="section-title">Hero Section - elementor</h1>
-		<ContactSection />
-		<FooterSection />
+		<ThuyThuTopMenu />
 
 		<!-- <h1 class="section-title">Hero Section - SimplePage</h1>
     <SimplePageHero />
