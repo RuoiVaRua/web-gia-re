@@ -139,8 +139,8 @@ const hideMegaMenu = () => {
     <div class="nav-container">
       <div class="logo">
         <a href="https://mobio.io/">
-          <img src="https://mobio.io/assets/images/logo-normal.svg" alt="Mobio Logo" class="logo-normal">
-          <img src="https://mobio.io/assets/images/logo-fixed.svg" alt="Mobio Logo Fixed" class="logo-fixed">
+          <img src="/webest.png" alt="Mobio Logo" class="logo-normal">
+          <img src="/webest.png" alt="Mobio Logo Fixed" class="logo-fixed">
         </a>
       </div>
       <div class="menu-toggle" @click="toggleMenu">

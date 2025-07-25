@@ -1,13 +1,14 @@
 <template>
   <div class="header-menu">
     <div class="menu-list d-flex">
+      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/gioi-thieu/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-about.svg" alt=""></span><span class="txt">Trang chủ</span></a></div>
       <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/gioi-thieu/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-about.svg" alt=""></span><span class="txt">Giới thiệu</span></a></div>
       <div class="menu-item dropdown menu-item-js">
         <a class="menu-item-link d-flex menu-item-link-js detect-link-js menu-mona-custom-link" data-wpel-link="internal">
           <span class="icon">
             <img src="https://mona.media/template/assets/images/header/icon-service.svg" alt="">
           </span>
-          <span class="txt">Dịch vụ</span>
+          <span class="txt">Mẫu Website</span>
           <span class="show-on-sp">
             <span class="dropdown-btn show-on-sp dropdown-btn-js">
               <img src="https://mona.media/template/assets/images/mega-menu-new/mega-menu-next.svg" alt="">
@@ -16,9 +17,9 @@
         </a>
         <!-- Full dropdown structure omitted for brevity but would be included in a real implementation -->
       </div>
-      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/du-an/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-project.svg" alt=""></span><span class="txt">Dự án</span></a></div>
-      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/khach-hang/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-customer.svg" alt=""></span><span class="txt">Khách hàng</span></a></div>
-      <div class="menu-item dropdown dropdown-sub menu-item-js">
+      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/du-an/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-project.svg" alt=""></span><span class="txt">Thiết kế Website</span></a></div>
+      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/khach-hang/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-customer.svg" alt=""></span><span class="txt">Chính sách</span></a></div>
+      <!-- <div class="menu-item dropdown dropdown-sub menu-item-js">
         <a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/blog/" data-wpel-link="internal">
           <span class="icon">
             <img src="https://mona.media/template/assets/images/header/icon-blog.svg" alt="">
@@ -26,10 +27,9 @@
           <span class="txt">Blog</span>
         </a>
         <img class="icon-arrow subBtn" src="https://mona.media/template/assets/images/mega-menu-new/mega-menu-next.svg" alt="">
-        <!-- Submenu structure omitted for brevity -->
-      </div>
-      <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/ban-tin-mona/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-activity.svg" alt=""></span><span class="txt">Hoạt động</span></a></div>
-      <div class="menu-item hop-tac menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/hop-tac-lam-an-voi-mona/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-colleague-02.png" alt=""></span><span class="txt">Hợp tác với MONA</span></a></div>
+      </div> -->
+      <!-- <div class="menu-item menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/ban-tin-mona/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-activity.svg" alt=""></span><span class="txt">Hoạt động</span></a></div> -->
+      <div class="menu-item hop-tac menu-item-js"><a class="menu-item-link d-flex detect-link-js menu-mona-custom-link" href="https://mona.media/hop-tac-lam-an-voi-mona/" data-wpel-link="internal"><span class="icon"><img src="https://mona.media/template/assets/images/header/icon-colleague-02.png" alt=""></span><span class="txt">Hợp tác với WebEst</span></a></div>
     </div>
   </div>
 </template>
