@@ -8,6 +8,7 @@ import CanhcamServicesSection from "./components/CanhcamServicesSection.vue";
 import SimplePageGallery from "./components/SimplePageGallery.vue";
 // import MonaTopMenu from "./components/MonaTopMenu.vue";
 import SimplePageHero from "./components/SimplePageHero.vue";
+import MyPageFeatures from "./components/MyPageFeatures.vue";
 // import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
@@ -20,9 +21,11 @@ import SimplePageHero from "./components/SimplePageHero.vue";
     
     <h1 class="section-title">Hero Section - MauWebsite</h1>
     <MauWebsiteHero /> -->
-	<!-- <MobioSection /> -->
-	 	<!-- <DemoStackingCards /> -->
+	<MobioSection />
+	<MyPageFeatures />
+	 	<DemoStackingCards />
 		<CanhcamServicesSection />
+		
 	</div>
 </template>
 
