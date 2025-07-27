@@ -82,7 +82,7 @@ export default defineComponent({
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               entry.target.classList.add('is-visible');
-              // observer?.unobserve(entry.target); // Optional: uncomment to run animation only once
+              observer?.unobserve(entry.target); // Optional: uncomment to run animation only once
             } else {
               entry.target.classList.remove('is-visible'); // Optional: uncomment to reset animation when out of view
             }

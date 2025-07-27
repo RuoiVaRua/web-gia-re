@@ -28,8 +28,8 @@ import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
 	<MyPageFeatures />
 	 	<DemoStackingCards />
 		<CanhcamServicesSection /> -->
-		<!-- <SEONgonStatistics /> -->
-		<!-- <CanhCamStatistics /> -->
+		<SEONgonStatistics />
+		<CanhCamStatistics />
 		<AWebsiteWorkflow />
 	</div>
 </template>

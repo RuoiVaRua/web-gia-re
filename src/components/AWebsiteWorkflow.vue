@@ -23,8 +23,12 @@
           </div>
         </div>
       </div>
-      <div class="figma-process-list">
-        <div v-for="(step, index) in processSteps" :key="index" class="figma-process-item">
+      <div class="figma-process-list" ref="processListRef">
+        <div
+          v-for="(step, index) in processSteps"
+          :key="index"
+          :class="['figma-process-item', { 'is-visible': isProcessListVisible }]"
+        >
           <div class="figma-process-item__content">
             <div class="figma-process-item__image">
               <img :src="step.image" :alt="step.title" />
@@ -44,11 +48,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue';
 
 export default defineComponent({
   name: 'FigmaProcessSection',
   setup() {
+    const processListRef = ref<HTMLElement | null>(null);
+    const isProcessListVisible = ref(false);
+    let observer: IntersectionObserver | null = null;
+
     const processSteps = [
       {
         title: 'Thu thập ý tưởng',
@@ -76,8 +84,35 @@ export default defineComponent({
       }
     ];
 
+    onMounted(() => {
+      if (processListRef.value) {
+        observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                isProcessListVisible.value = true;
+                if (observer) {
+                  observer.disconnect(); // Ngừng quan sát sau khi đã hiển thị
+                }
+              }
+            });
+          },
+          { threshold: 0.1 } // Kích hoạt khi 10% phần tử hiển thị
+        );
+        observer.observe(processListRef.value);
+      }
+    });
+
+    onBeforeUnmount(() => {
+      if (observer) {
+        observer.disconnect();
+      }
+    });
+
     return {
-      processSteps
+      processSteps,
+      processListRef,
+      isProcessListVisible
     };
   }
 });
@@ -89,6 +124,7 @@ export default defineComponent({
   background-color: #FFFFFF;
   width: 100%;
   max-width: 1200px;
+  overflow: hidden;
 
   .figma-container {
     display: flex;
@@ -162,6 +198,7 @@ export default defineComponent({
     background-image: linear-gradient(-225deg,#c00000 0%,#a11eff 29%,#39be07 67%,#ffd95d 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: #fff0;    
     animation: textclip 2s linear infinite;
   }
@@ -205,10 +242,23 @@ export default defineComponent({
     padding: 0px 11.5px;
     width: 25%; // Adjusted from 283px / 1132px (parent width)
     height: auto; // Use auto for height to maintain aspect ratio
-    // position: relative;
+    transform: translateX(100%);
+    opacity: 0;
+    overflow: hidden;
+    transition: transform 2s cubic-bezier(.4,0,.2,1), opacity 2s cubic-bezier(.4,0,.2,1);
+
+    &.is-visible {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}) {
+        transition-delay: calc(($i - 1) * 0.3s);
+      }
+    }
 
     &__content {
-      // position: relative;
       width: 100%;
       height: auto; // Use auto for height to maintain aspect ratio
       display: flex;
@@ -238,6 +288,33 @@ export default defineComponent({
       height: auto; // Use auto for height to maintain aspect ratio
       overflow: hidden;
       border-radius: 20px 0px 20px 0px;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 2;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+        background: -webkit-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 100%);
+        background: linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 100%);
+        -webkit-transform: skewX(-25deg);
+        transform: skewX(-25deg);
+        transition: left 0.5s ease-in-out;
+      }
+
+      &:hover::before{
+        animation: shine 0.75s;
+      }      
+
+      @keyframes shine {
+        to {
+          left: 125%;
+        }
+      }
 
       img {
         width: 100%;

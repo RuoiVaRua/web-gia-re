@@ -120,6 +120,7 @@ onMounted(() => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('is-visible');
+          animatedNumbersObserver?.unobserve(entry.target); // Stop observing after all elements are visible
         } else {
           entry.target.classList.remove('is-visible');
         }
