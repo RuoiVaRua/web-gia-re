@@ -11,6 +11,7 @@ import SimplePageHero from "./components/SimplePageHero.vue";
 import MyPageFeatures from "./components/MyPageFeatures.vue";
 import CanhCamStatistics from "./components/CanhCamStatistics.vue";
 import SEONgonStatistics from "./components/SEONgonStatistics.vue";
+import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
 // import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
@@ -28,7 +29,8 @@ import SEONgonStatistics from "./components/SEONgonStatistics.vue";
 	 	<DemoStackingCards />
 		<CanhcamServicesSection /> -->
 		<!-- <SEONgonStatistics /> -->
-		<CanhCamStatistics />
+		<!-- <CanhCamStatistics /> -->
+		<AWebsiteWorkflow />
 	</div>
 </template>
 
