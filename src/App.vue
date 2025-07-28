@@ -12,6 +12,7 @@ import MyPageFeatures from "./components/MyPageFeatures.vue";
 import CanhCamStatistics from "./components/CanhCamStatistics.vue";
 import SEONgonStatistics from "./components/SEONgonStatistics.vue";
 import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
+import MypagePricingSection from "./components/MypagePricingSection.vue";
 // import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
@@ -28,9 +29,10 @@ import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
 	<MyPageFeatures />
 	 	<DemoStackingCards />
 		<CanhcamServicesSection /> -->
-		<SEONgonStatistics />
+		<!-- <SEONgonStatistics />
 		<CanhCamStatistics />
-		<AWebsiteWorkflow />
+		<AWebsiteWorkflow /> -->
+		<MypagePricingSection />
 	</div>
 </template>
 
