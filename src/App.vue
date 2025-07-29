@@ -13,7 +13,10 @@ import CanhCamStatistics from "./components/CanhCamStatistics.vue";
 import SEONgonStatistics from "./components/SEONgonStatistics.vue";
 import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
 import MypagePricingSection from "./components/MypagePricingSection.vue";
-import FAQSection from "./components/FAQSection.vue";
+import MyPageFAQSection from "./components/MyPageFAQSection.vue";
+import MyPageContact from "./components/MyPageContact.vue";
+import MyPageFooter from "./components/MyPageFooter.vue";
+import MyPageMarquee from "./components/MyPageMarquee.vue";
 // import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
@@ -33,8 +36,11 @@ import FAQSection from "./components/FAQSection.vue";
 		<!-- <SEONgonStatistics />
 		<CanhCamStatistics />
 		<AWebsiteWorkflow /> -->
-		<MypagePricingSection />
-		<FAQSection />
+		<!-- <MypagePricingSection /> -->
+		<MyPageMarquee />
+		<MyPageFAQSection />
+		<MyPageContact />
+		<MyPageFooter />
 	</div>
 </template>
 
