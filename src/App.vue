@@ -13,6 +13,7 @@ import CanhCamStatistics from "./components/CanhCamStatistics.vue";
 import SEONgonStatistics from "./components/SEONgonStatistics.vue";
 import AWebsiteWorkflow from "./components/AWebsiteWorkflow.vue";
 import MypagePricingSection from "./components/MypagePricingSection.vue";
+import FAQSection from "./components/FAQSection.vue";
 // import ThuyThuTopMenu from "./components/ThuyThuTopMenu.vue";
 </script>
 
@@ -33,6 +34,7 @@ import MypagePricingSection from "./components/MypagePricingSection.vue";
 		<CanhCamStatistics />
 		<AWebsiteWorkflow /> -->
 		<MypagePricingSection />
+		<FAQSection />
 	</div>
 </template>
 
